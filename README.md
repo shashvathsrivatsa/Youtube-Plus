@@ -1,11 +1,29 @@
-## Installation
-1. Download the files or clone the repository
-2. Go to your extensions page in your browser (`chrome://extensions/`)
-3. Enable developer mode (top-right corner)
-4. Click on "Load unpacked" and open the directory containing these files (specifically `manifest.json`)
+# YOUTUBE+ Chrome Extension
+This is a Chrome extension that adds additional features to YouTube.
 
-## Use
-1. Have the website that you want to summarize open
-2. If you want to summarize only a portion of it, just select what you want to input.
-3. Click on the extension to open the popup, and the summary will begin being generated
-4. You can chat with the AI regarding the webpage—it will respond using the summary as well as its own knowledge.
+## Features
+- Injects custom CSS styles to YouTube pages.
+- Listens for tab updates and sends messages to content scripts.
+- Fetches video information from an external API and displays the like/dislike ratio on the video page.
+
+## Installation
+1. Clone this repository.
+2. Open Chrome and navigate to `chrome://extensions`.
+3. Enable Developer mode by ticking the checkbox in the upper-right corner.
+4. Click on the "Load unpacked" button.
+5. Select the directory where you cloned the repository.
+6. Usage
+7. Once installed, the extension will automatically apply the additional features when you visit YouTube.
+
+## Manifest
+The manifest file for the extension is `manifest.json`. It specifies the permissions, background scripts, content scripts, and other settings for the extension.
+
+## Scripts
+- `background.js`: This script runs in the background and listens for tab updates. It injects the custom CSS file into YouTube pages and sends messages to the content script when a YouTube video page is fully loaded.
+- `content.js`: This script runs in the context of YouTube pages. It fetches video information from an external API and displays the like/dislike ratio on the video page.
+
+## Styles
+The custom CSS styles for the extension are defined in `styles.css`. They style the like/dislike ratio element that is added to YouTube video pages.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
