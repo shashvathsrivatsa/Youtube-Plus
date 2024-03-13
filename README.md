@@ -7,5 +7,4 @@ This is a Chrome extension that adds additional features to YouTube by injects c
 3. Enable Developer mode by ticking the checkbox in the upper-right corner.
 4. Click on the "Load unpacked" button.
 5. Select the directory where you cloned the repository.
-6. Usage
-7. Once installed, the extension will automatically apply the additional features when you visit YouTube.
+6. Once installed, the extension will automatically apply the additional features when you visit YouTube.
