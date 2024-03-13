@@ -1,5 +1,5 @@
 # YOUTUBE+ Chrome Extension
-This is a Chrome extension that adds additional features to YouTube by injects custom CSS styles to YouTube pages.
+This is a Chrome extension that adds additional features to YouTube by injecting custom CSS styles into YouTube pages.
 
 ## Installation
 1. Clone this repository.
